@@ -46,7 +46,7 @@ function Bmi() {
             <div className="bmi-con">
 
                 <div className="mb-3">
-                    <label for="exampleInput" className="form-label">Enter Weight(LBS)</label>
+                    <label for="exampleInput" className="form-label">Enter Weight(lbs)</label>
                     <input type="text" className="form-control" id="exampleInput" aria-describedby="text"
                      onChange={changeWidth}  value={w}/>
 
