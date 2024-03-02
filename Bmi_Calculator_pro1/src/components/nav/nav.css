@@ -1,0 +1,28 @@
+.nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+
+}
+.nav ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    padding: 6px;
+    padding: 4px;
+
+}
+ul li a:hover{
+    cursor: pointer;
+    background: lightblue;
+}
