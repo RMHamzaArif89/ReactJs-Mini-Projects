@@ -8,6 +8,7 @@ function Age() {
         days:'',
         mounths:'',
         years:''
+        
     })
 
    const inputValue=(e)=>{
