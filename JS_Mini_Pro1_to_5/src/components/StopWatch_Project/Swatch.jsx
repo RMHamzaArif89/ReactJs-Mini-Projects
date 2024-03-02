@@ -1,7 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './swatch.css'
 
 function Swatch() {
+  let[timer,setTimer]=useState(0)
+  let[run,setRun]=useState(false)
+
+ 
+  useEffect(()=>{
+    let interval;
+    if(run){
+      interval=setInterval(()=>{
+     setTimer((prev)=> prev + 10)
+      },10)
+    }
+    else if(!run){
+      clearInterval(interval)
+      
+    }
+    return ()=>clearInterval(interval)
+  },[run])
+
+
+
+  
+
+
   return (
     <div className='swatch'>
         <div className="swatch-con">
@@ -9,14 +32,17 @@ function Swatch() {
                 StopWatch
             </div>
             <div className="swatch-timer">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div className="time">{("0"+ Math.floor(timer / 60000) % 60).slice(-2)}</div>
+                <div className="time">{("0"+ Math.floor(timer / 1000) % 60).slice(-2)}</div>
+                <div className="time">{("0"+ (timer / 10) % 100).slice(-2)}</div>
+            
+                
+                
             </div>
             <div className="swatch-btns">
-                <div className="start btn"></div>
-                <div className="reset btn"></div>
-                <div className="stop btn"></div>
+                <div className="start btn" onClick={()=>{setRun(true)}}>Start</div>
+                <div className="reset btn" onClick={()=>{setTimer(0)}}>Reset</div>
+                <div className="stop btn" onClick={()=>{setRun(false)}}>Stop</div>
             </div>
         </div>
       

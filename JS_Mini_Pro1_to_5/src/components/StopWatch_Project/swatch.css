@@ -34,9 +34,12 @@
     color: blue;
     font-family: serif;
     font-weight: bold;
+    display: flex;
+    gap: 9px;
 }
-.swatch-timer span{
-    padding: 8px;
+.swatch-timer .time{
+    padding: 12px;
+    border-radius: 15px;
     background: lightgray;
     border: 1px solid gray;
     

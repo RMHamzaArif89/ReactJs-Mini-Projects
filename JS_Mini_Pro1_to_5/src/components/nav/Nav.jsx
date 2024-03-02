@@ -8,6 +8,7 @@ function Nav() {
         <ul>
             {/* <li><Link to='AgeCal'>AgeCalculator</Link></li> */}
             <li><Link to='BmiCal'>BmiCalculator</Link></li>
+            <li><Link to='Swatch'>StopWatch</Link></li>
         </ul>
       
     </div>

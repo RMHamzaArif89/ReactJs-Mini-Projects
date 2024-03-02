@@ -2,13 +2,17 @@
     width: 100vw;
     height: 60px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background: #000;
 
 }
 .nav ul{
     display: flex;
+    height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
     
 }
 ul li{
@@ -17,9 +21,10 @@ ul li{
 ul li a{
     text-decoration: none;
     color: white;
-    font-family: serif;
-    padding: 6px;
-    padding: 4px;
+    font-family: sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    background: lightcoral;
 
 }
 ul li a:hover{
