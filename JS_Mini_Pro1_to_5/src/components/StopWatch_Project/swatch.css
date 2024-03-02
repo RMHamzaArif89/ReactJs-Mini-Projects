@@ -1,0 +1,57 @@
+.swatch{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightseagreen;
+    
+}
+
+.swatch-con{
+    padding: 20px;
+    color: black;
+    width: 25%;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.swatch-h{
+ text-align: center;
+ font-family: serif;
+ font-size: 2rem;
+ color: red;
+ font-weight: bold;
+ font-style: italic;
+}
+.swatch .swatch-timer{
+    font-size: 1.6rem;
+    color: blue;
+    font-family: serif;
+    font-weight: bold;
+}
+.swatch-timer span{
+    padding: 8px;
+    background: lightgray;
+    border: 1px solid gray;
+    
+}
+
+.swatch-btns{
+    display: flex;
+    gap: 14px;
+
+}
+.swatch-btns .btn{
+    font-family: serif;
+    color: white;
+    background: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
