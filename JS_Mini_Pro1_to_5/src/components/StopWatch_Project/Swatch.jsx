@@ -34,7 +34,7 @@ function Swatch() {
             <div className="swatch-timer">
                 <div className="time">{("0"+ Math.floor(timer / 60000) % 60).slice(-2)}</div>
                 <div className="time">{("0"+ Math.floor(timer / 1000) % 60).slice(-2)}</div>
-                <div className="time">{("0"+ (timer / 10) % 100)}</div>
+                <div className="time">{((timer / 10) % 100)}</div>
             
                 
                 

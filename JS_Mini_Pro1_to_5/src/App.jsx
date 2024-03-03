@@ -5,6 +5,7 @@ import Bmi from './components/BMI_Project/Bmi'
 import Age from './components/AgeCal_Project/Age'
 import Nav from './components/nav/Nav';
 import Swatch from './components/StopWatch_Project/Swatch';
+import List from './components/moviesList/list';
 
 function App() {
  return(
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Age/>} />
           <Route path="BmiCal" element={<Bmi/>} />
           <Route path="Swatch" element={<Swatch/>} />
+          <Route path="List" element={<List/>} />
       </Routes>
     </BrowserRouter>
 </>
