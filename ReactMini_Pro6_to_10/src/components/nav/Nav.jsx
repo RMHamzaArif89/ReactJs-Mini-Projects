@@ -10,6 +10,7 @@ function Nav() {
             <li><Link to='color'>ColorGenerate</Link></li>
             <li><Link to='notification'>Notification</Link></li>
             <li><Link to='toast'>Toast</Link></li>
+            <li><Link to='accordian'>Accordian</Link></li>
           
         </ul>
       

@@ -5,6 +5,7 @@ import Color from './components/ColorGenerator/Color'
 import Notification from './components/PopNotification/Notification'
 import Toast from './components/ToastNoti/Toast'
 import Filter from './components/FilterImage/Filter'
+import Accordian from './components/accordian/Accordian'
 
 
 import './App.css'
@@ -22,6 +23,7 @@ function App() {
           <Route path="color" element={<Color/>} />
           <Route path="toast" element={<Toast/>} />
           <Route path="notification" element={<Notification/>} />
+          <Route path="accordian" element={<Accordian/>} />
           
       </Routes>
     </BrowserRouter>

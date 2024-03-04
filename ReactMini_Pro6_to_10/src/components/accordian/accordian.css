@@ -1,0 +1,111 @@
+.accordian {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.con-heading {
+    font-size: 3rem;
+    color: gold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.con-question {
+    background: white;
+    width: 50%;
+    border: 1px solid gray;
+    height: auto;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 1%;
+
+}
+
+.con-question span {
+    display: inline-block;
+    padding: 0px 3px;
+    float: right;
+    font-size: 1.3rem;
+    color: gold;
+    border: 1px solid gold;
+}
+.con-question span:hover{
+    background:gold;
+    color: goldenrod;
+    cursor: pointer;
+}
+.con-ans,.ans-show{
+    font-size: 1rem;
+    color:gray;
+    font-family: sans-serif;
+    margin-top: 2%;
+    display: none;
+
+}
+.ans-show{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+
+
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    
+
+
