@@ -3,6 +3,7 @@ import Heading from './Heading'
 import Menu from './Menu'
 import Card from './Card'
 import Data from '../File'
+import './css/filter.css'
 
 
 
@@ -15,22 +16,27 @@ function Filter() {
     })
     setState(selectData)
   }
+  const all = () => {
+    setState(Data)
+  }
 
   return (
     <>
-      <Heading />
-    <Menu filterFunc={filterFunc}/>
+<div className="filter">
+<Heading />
+    <Menu filterFunc={filterFunc} all={all}/>
 
       <div className="menu">
         {state.map((item) => {
           let { heading, price, img, txt, id } = item;
           return (
             <>
-              <Card heading={heading} price={price} img={img} txt={txt} key={id} />
+              <Card heading={heading} price={price} img={img} txt={txt} key={id}/>
             </>
           )
         })}
       </div>
+</div>
     </>
   )
 }

@@ -9,7 +9,7 @@ function Notification() {
         // console.log(pop)
     }
   return (
-    <div className="con">
+    <div className="notification">
     <div className={pop?'pop-add':'pop-up'}>
 
         <div className="pop-logo">

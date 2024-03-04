@@ -4,6 +4,7 @@ import Nav from './components/nav/Nav'
 import Color from './components/ColorGenerator/Color'
 import Notification from './components/PopNotification/Notification'
 import Toast from './components/ToastNoti/Toast'
+import Filter from './components/FilterImage/Filter'
 
 
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
       <Routes>
       
           {/* <Route index element={<Age/>} /> */}
+          <Route index element={<Filter/>} />
           <Route path="color" element={<Color/>} />
           <Route path="toast" element={<Toast/>} />
           <Route path="notification" element={<Notification/>} />

@@ -8,16 +8,15 @@
 
 
 }
-.con{
+.toast-con{
     width: 80%;
     margin: 0 auto;
-    height: 200px;
-    background:lightblue;
+    
     display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+    justify-content: space-around;
+
 }
-button{
+.toast-btn{
     text-decoration: none;
     border: none;
     padding: 8px;

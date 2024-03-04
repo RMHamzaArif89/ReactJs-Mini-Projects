@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background:red;
 
 }
 .nav ul{
@@ -24,7 +24,7 @@ ul li a{
     font-family: sans-serif;
     padding: 8px;
     border-radius: 4px;
-    background: lightcoral;
+    background: black;
 
 }
 ul li a:hover{

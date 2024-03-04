@@ -35,12 +35,12 @@ function Toast() {
 
     return (
         <div className='toast'>
-            <div className="con">
-                <button onClick={Information}>Info</button>
-                <button onClick={success}>succss</button>
-                <button onClick={warning}>warning</button>
-                <button onClick={def}>default</button>
-                <button onClick={error}>error</button>
+            <div className="toast-con">
+                <button className='toast-btn' onClick={Information}>Info</button>
+                <button className='toast-btn' onClick={success}>succss</button>
+                <button className='toast-btn' onClick={warning}>warning</button>
+                <button className='toast-btn' onClick={def}>default</button>
+                <button className='toast-btn' onClick={error}>error</button>
             </div>
             <ToastContainer />
         </div>

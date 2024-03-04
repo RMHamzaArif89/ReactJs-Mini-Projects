@@ -2,7 +2,7 @@ import React from 'react'
 import './css/menu.css'
 import Card from './Card'
 
-function Menu({filterFunc}) {
+function Menu({filterFunc,all}) {
  
 
   return (
@@ -10,7 +10,7 @@ function Menu({filterFunc}) {
     <li onClick={() => { filterFunc('chiken') }}>Chiken</li>
     <li onClick={() => { filterFunc('sandwitch') }}>Sandwitch</li>
     <li onClick={() => { filterFunc('burger') }}>Burger</li>
-    <li onClick={() => { setState(Data) }}>All</li>
+    <li onClick={() => {all()}}>All</li>
 
 
   </div>

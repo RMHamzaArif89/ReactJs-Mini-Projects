@@ -1,17 +1,18 @@
 
-.con {
+.notification {
     width: 100%;
     height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(180deg,lightblue,lightgray);
 }
 
 .pop-up ,.pop-add{
     width: 28%;
     height: 28%;
-    background: lightblue;
+    background: black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -72,8 +73,8 @@
     text-align: center;
     font-size: 1.3rem;
     font-family: serif;
-    color: white;
-    background: #000;
+    color: red;
+    background:white;
     margin: 4% 0;
 
 }
