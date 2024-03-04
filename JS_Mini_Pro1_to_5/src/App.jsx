@@ -6,6 +6,7 @@ import Age from './components/AgeCal_Project/Age'
 import Nav from './components/nav/Nav';
 import Swatch from './components/StopWatch_Project/Swatch';
 import List from './components/moviesList/list';
+import DragDrop from './components/dragdrop/DragDrop';
 
 function App() {
  return(
@@ -18,6 +19,7 @@ function App() {
           <Route path="BmiCal" element={<Bmi/>} />
           <Route path="Swatch" element={<Swatch/>} />
           <Route path="List" element={<List/>} />
+          <Route path="dragdrop" element={<DragDrop/>} />
       </Routes>
     </BrowserRouter>
 </>
