@@ -1,12 +1,26 @@
+import { useState } from 'react'
+import React from 'react'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import ParaGen from './components/randomParaGen/ParaGen'
+import Nav from './components/nav/Nav'
 
-import './App.css'
+
 
 function App() {
+  
 
-
-  return (
+  return(
     <>
-      <h1></h1>
+       <BrowserRouter>
+    <Nav/>
+      <Routes>
+      
+          {/* <Route index element={<Age/>} /> */}
+        
+          <Route path="paragen" element={<ParaGen/>} />
+          
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
