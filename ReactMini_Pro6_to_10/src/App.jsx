@@ -3,6 +3,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Nav from './components/nav/Nav'
 import Color from './components/ColorGenerator/Color'
 import Notification from './components/PopNotification/Notification'
+import Toast from './components/ToastNoti/Toast'
 
 
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
       
           {/* <Route index element={<Age/>} /> */}
           <Route path="color" element={<Color/>} />
+          <Route path="toast" element={<Toast/>} />
           <Route path="notification" element={<Notification/>} />
           
       </Routes>

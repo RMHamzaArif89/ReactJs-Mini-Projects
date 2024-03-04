@@ -9,6 +9,7 @@ function Nav() {
             {/* <li><Link to='AgeCal'>AgeCalculator</Link></li> */}
             <li><Link to='color'>ColorGenerate</Link></li>
             <li><Link to='notification'>Notification</Link></li>
+            <li><Link to='toast'>Toast</Link></li>
           
         </ul>
       
