@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Clock from './components/digitalClock/Clock'
 import RPG from '../../ReactMini_Pro11_to_15/randomPasswordGene/RPG'
 import Nav from './components/nav/Nav'
+import Calculator from './components/calculator/Calculator'
 
 
 
@@ -20,6 +21,7 @@ function App() {
           {/* <Route index element={<Code/>} /> */}
           <Route path="clock" element={<Clock/>} />
           <Route path="rpg" element={<RPG/>} />
+          <Route path="calculator" element={<Calculator/>} />
      
 
           
