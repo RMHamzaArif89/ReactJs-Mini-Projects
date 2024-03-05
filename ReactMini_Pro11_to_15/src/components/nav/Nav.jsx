@@ -10,6 +10,7 @@ function Nav() {
             <li><Link to='slider'>Slider</Link></li>
             <li><Link to='paragen'>ParaGenerator</Link></li>
             <li><Link to='password'>Password</Link></li>
+            <li><Link to='navbar'>ResponsiveNavBar</Link></li>
       
           
         </ul>
