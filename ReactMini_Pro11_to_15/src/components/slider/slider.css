@@ -1,0 +1,58 @@
+.slider{
+    background: rgba(233, 2, 2, 0.897);
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+.image-box{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-box .image{
+    width: 60%;
+    height: 65%;
+    border: 10px solid rgba(255, 255, 0, 0.897);
+   
+    
+
+}
+
+
+
+.btn{
+    width: 40px;
+    height: 80px;
+    background: rgba(30, 158, 209, 0.884);
+    border: 3px solid rgba(202, 118, 7, 0.897);
+    border-radius: 5px;
+    font-size: 1.5rem;
+   
+}
+button:hover{
+    background: rgba(16, 102, 136, 0.884);
+    cursor: pointer;
+    color: white;
+}
+.btn-right{
+    
+    position: absolute;
+    right: 10.5%;
+    top: 45%;
+    font-weight: bolder;
+}
+.btn-left{
+    
+    position: absolute;
+    left: 10.5%;
+    top: 45%;
+    font-weight: bolder;
+    
+}
+/* .btn i{
+    font-size: 1.3rem;
+    color: black;
+    
+} */
