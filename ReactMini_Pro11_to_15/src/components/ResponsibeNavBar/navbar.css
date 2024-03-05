@@ -1,7 +1,7 @@
 .nav-side {
   width: 100%;
   height: 80px;
-  background: lightblue;
+  background: blueviolet;
   display: flex;
   align-items: center;
 
@@ -65,7 +65,7 @@
   cursor: pointer;
   list-style: none;
   width: 100%;
-  height: 30px;
+  height: 100%;
   padding: 10px 0px;
   text-align: center;
   font-size: 1.2rem;
@@ -94,12 +94,12 @@
     width: 100%;
     height: 60px;
     background: blueviolet;
+    position: relative;
   }
   .nav-side{
     display: none;
   }
   .nav-tog {
-    float: right;
     font-size: 2rem;
     line-height: 1.8;
     padding: 6px 14px;
@@ -108,8 +108,8 @@
     display:block;
    z-index: 1000;
    position: absolute;
-   top: 15%;
-   right: 15%;
+   top: 0%;
+   right: 0%;
   }
   
   .nav-tog a {
