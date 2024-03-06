@@ -15,10 +15,15 @@ let[time,setTime]=useState(0)
        
         
        
-           setTimeout(() => {
+          let myInterval= setTimeout(() => {
             let timeText = date.toLocaleTimeString();
             setTime(timeText)
     }, 1000);
+
+    return () => {
+      clearInterval(myInterval);
+      
+    }
 
 
      

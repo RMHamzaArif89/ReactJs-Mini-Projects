@@ -1,5 +1,5 @@
 .countdown{
-    background-image: url('/images/img.jpg');
+    background-image: url('/img.jpg');
     width: 100%;
     height: calc(100vh - 60px);
     background-position: center;
