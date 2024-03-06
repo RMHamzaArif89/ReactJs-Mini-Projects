@@ -8,6 +8,7 @@ function Nav() {
         <ul>
            
             <li><Link to='calculator'>Calculator</Link></li>
+            <li><Link to='countdown'>Countdown</Link></li>
             <li><Link to='clock'>Digital Clock</Link></li>
             <li><Link to='rpg'>PasswordGenerator</Link></li>
   

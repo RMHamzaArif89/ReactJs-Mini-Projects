@@ -1,0 +1,113 @@
+.countdown{
+    background-image: url('/images/img.jpg');
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-position: center;
+    background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+   color: blueviolet;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 900;
+
+}
+div.col{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+input{
+    width: 9vw;
+    height: 14vh;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: navy;
+
+}
+.dateE{
+    color: red;
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+.text{
+    color: rgba(10, 255, 2, 0.692);
+font-size: 5rem;
+font-weight: 900;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width: 600px) {
+    html{
+        font-size:6px;
+
+    }
+
+ 
+
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+        html{
+            font-size: 7px;
+        }
+       
+       
+       
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+        html{
+            font-size: 9px;
+        }
+       
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+        html{
+            font-size: 12px;
+
+            
+        }
+       
+       
+       
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+   
+    }

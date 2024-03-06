@@ -5,6 +5,7 @@ import Clock from './components/digitalClock/Clock'
 import RPG from '../../ReactMini_Pro11_to_15/randomPasswordGene/RPG'
 import Nav from './components/nav/Nav'
 import Calculator from './components/calculator/Calculator'
+import Countdown from './components/countdown/Countdown'
 
 
 
@@ -18,7 +19,7 @@ function App() {
     <Nav/>
       <Routes>
       
-          {/* <Route index element={<Code/>} /> */}
+          <Route index element={<Countdown/>} />
           <Route path="clock" element={<Clock/>} />
           <Route path="rpg" element={<RPG/>} />
           <Route path="calculator" element={<Calculator/>} />
