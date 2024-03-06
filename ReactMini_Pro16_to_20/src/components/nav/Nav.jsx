@@ -11,6 +11,7 @@ function Nav() {
             <li><Link to='countdown'>Countdown</Link></li>
             <li><Link to='clock'>Digital Clock</Link></li>
             <li><Link to='rpg'>PasswordGenerator</Link></li>
+            <li><Link to='scroll'>Scrollindicator</Link></li>
   
       
           

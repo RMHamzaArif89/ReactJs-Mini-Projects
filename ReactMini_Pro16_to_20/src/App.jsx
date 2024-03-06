@@ -6,6 +6,7 @@ import RPG from '../../ReactMini_Pro11_to_15/randomPasswordGene/RPG'
 import Nav from './components/nav/Nav'
 import Calculator from './components/calculator/Calculator'
 import Countdown from './components/countdown/Countdown'
+import Scroll from './components/scrolindicator/Scroll'
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="clock" element={<Clock/>} />
           <Route path="rpg" element={<RPG/>} />
           <Route path="calculator" element={<Calculator/>} />
+          <Route path="scroll" element={<Scroll/>} />
      
 
           
