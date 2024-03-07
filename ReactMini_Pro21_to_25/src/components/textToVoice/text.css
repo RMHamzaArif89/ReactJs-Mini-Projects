@@ -1,0 +1,77 @@
+
+div.text{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-con{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.text-con-heading{
+    font-size: 3.5rem;
+    color: blueviolet;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+.text-con textarea{
+    width: 90%;
+    height: 200px;
+    background: #403d84;;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    color: blue;
+    font-family: serif;
+    border-radius: 4px;
+    padding: 4px;
+
+
+}
+textarea::placeholder{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+
+select{
+    color: #fff;
+    background-color: #6f6f70a4;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    width: 90%;
+    height: 40px;
+    padding: 4px;
+    margin: 5% 0;
+}
+
+.text-con button{
+    width: 90%;
+    height: 40px;
+    padding: 8px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: blueviolet;
+    background: aqua;
+}
+.text-con button:hover{
+    background: rgba(51, 250, 184, 0.932);
+    cursor: pointer;
+}
+
+

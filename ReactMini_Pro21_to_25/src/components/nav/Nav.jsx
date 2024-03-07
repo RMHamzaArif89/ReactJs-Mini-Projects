@@ -10,8 +10,8 @@ function Nav() {
             <li><Link to='popup'>PopUp</Link></li>
             <li><Link to='wwh'>Wwh</Link></li>
              <li><Link to='scrolltop'>ScrollTop</Link></li>
-            {/* <li><Link to='rpg'>PasswordGenerator</Link></li>
-            <li><Link to='scroll'>Scrollindicator</Link></li>  */}
+            <li><Link to='text'>TextToVoice</Link></li>
+            
   
       
           
