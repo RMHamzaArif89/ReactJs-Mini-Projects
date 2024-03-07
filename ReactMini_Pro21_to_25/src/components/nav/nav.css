@@ -1,0 +1,33 @@
+.nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:red;
+
+}
+.nav ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    background: black;
+
+}
+ul li a:hover{
+    cursor: pointer;
+    background: lightblue;
+}

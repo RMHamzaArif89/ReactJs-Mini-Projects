@@ -1,0 +1,143 @@
+
+.tabs {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(160deg,lightblue,lightseagreen);
+
+}
+
+.tab-con {
+    width: 65%;
+    height: 80%;
+}
+
+
+.heading {
+    font-size: 3rem;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+    background: #000;
+
+    border-radius: 8px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: lightgray;
+    height: 40px;
+    width: 33.3%;
+    padding: 8px 0;
+    color: white;
+    background: red;
+    text-align: center;
+    border: 1px solid lightblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(187, 187, 187, 0.966);
+
+}
+
+.btn-container .btn-active {
+    background: white;
+}
+
+
+.content {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: serif;
+    color: white;
+    line-height: 1.3;
+    padding: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width: 600px) {
+    html{
+        font-size:10px;
+
+    }
+ 
+    
+
+ 
+
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+        html{
+            font-size: 12px;
+        }
+      
+       
+       
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+        html{
+            font-size: 14px;
+        }
+       
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+        html{
+            font-size: 16px;
+
+            
+        }
+       
+       
+       
+       
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+   
+    }
