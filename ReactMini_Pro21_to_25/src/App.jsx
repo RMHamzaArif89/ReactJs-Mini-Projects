@@ -3,6 +3,7 @@ import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Popup from './components/popup/Popup'
 import Tabs from './components/tabs/Tabs'
+import Wwh from './components/showWWH/wwh'
 import Nav from './components/nav/Nav'
 
 
@@ -18,9 +19,9 @@ function App() {
       
           <Route index element={<Tabs/>} />
           <Route path="popup" element={<Popup/>} />
-          {/* <Route path="rpg" element={<RPG/>} />
-          <Route path="calculator" element={<Calculator/>} />
-          <Route path="scroll" element={<Scroll/>} /> */}
+          <Route path="wwh" element={<Wwh/>} />
+          {/* // <Route path="calculator" element={<Calculator/>} /> */}
+          
      
 
           
