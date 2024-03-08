@@ -3,6 +3,7 @@ import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import StarRating from './components/starRating/StarRating'
 import Slider from './components/ImgSlider/slider'
+import Load from './components/LoadButton/Load'
 import Nav from './components/nav/Nav'
 
 
@@ -19,10 +20,8 @@ function App() {
           {/* <Route index element={<Tabs/>} /> */}
           <Route path="starrating" element={<StarRating/>} />
           <Route path="slider" element={<Slider/>} />
-          {/* <Route path="wwh" element={<Wwh/>} />
-          <Route path="scrolltop" element={<ScrollTop/>} />
-          <Route path="text" element={<Text/>} /> */}
-          {/* // <Route path="calculator" element={<Calculator/>} /> */}
+          <Route path="load" element={<Load/>} />
+       
           
      
 
