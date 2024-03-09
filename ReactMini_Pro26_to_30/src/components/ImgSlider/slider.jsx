@@ -42,7 +42,7 @@ function Slider() {
                     <div className="arrow-right arrow" onClick={rightClickFunc}><FaArrowRight /></div>
 
                 
-                <div className="pagination">
+                <div className="pagin">
                     {
                         data.map((_, i) => {
                             return <li key={i} className='pag-li' onClick={()=>{clickFunc(i)}}style={{backgroundColor:val!=i?'white':'red'}}>{i}</li>

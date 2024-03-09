@@ -11,6 +11,7 @@
     display:flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 }
 .li{
     list-style: none;
@@ -22,4 +23,50 @@
     border: 1px solid gray;
     width: 100%;
     padding: 15px;
+}
+
+
+
+.pagination-list{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pag-li{
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 6px;
+    border-radius: 3px;
+    color: black;
+}
+.pag-li:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.arrow{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    color: lightcoral;
+    background: rgba(130, 208, 234, 0.789);
+    text-align: center;
+    font-family: serif;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+.arrow:hover{
+    color: white;
+    background: lightcoral;
+}
+.arrow-left{
+    left: 2%;
+}
+.arrow-right{
+    right: 2%;
 }
