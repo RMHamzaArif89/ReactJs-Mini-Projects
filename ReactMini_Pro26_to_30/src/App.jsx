@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import StarRating from './components/starRating/StarRating'
 import Slider from './components/ImgSlider/slider'
 import Load from './components/LoadButton/Load'
+import Pagination from './components/pagination/Pagination'
 import Nav from './components/nav/Nav'
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="starrating" element={<StarRating/>} />
           <Route path="slider" element={<Slider/>} />
           <Route path="load" element={<Load/>} />
+          <Route path="pagination" element={<Pagination/>} />
        
           
      

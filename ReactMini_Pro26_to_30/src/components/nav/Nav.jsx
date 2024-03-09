@@ -9,6 +9,7 @@ function Nav() {
             <li><Link to='slider'>slider</Link></li>
             <li><Link to='starrating'>StarRating</Link></li>
             <li><Link to='load'>LoadMore</Link></li>
+            <li><Link to='pagination'>Pagination</Link></li>
            
           
         </ul>
