@@ -19,10 +19,25 @@ function AutoSearch() {
 
     let SearchFunc=()=>{
         if(val.length>0){
-          let newData=data.filter((item)=>{return item===val})
+          let newData=data.filter((item)=>{return item==val})
          
           setFilterData(newData)
         }
+    }
+
+
+
+
+    let changeVal=(event)=>{
+        let searchVal=event.target.value
+        setVal(searchVal)
+        if(searchVal.length>1){
+            let filterData=data.filter((item)=>{return item.toLowerCase().indexOf(searchVal) > -1})
+         
+            setFilterData(filterData)
+            
+        }
+
     }
 
 
@@ -35,7 +50,7 @@ function AutoSearch() {
   return (
     <div className='autosearch'>
     <div className="auto-input">
-        <input type="text" value={val} onChange={(e)=>{setVal(e.target.value)}}/>
+        <input type="text" value={val} onChange={changeVal}/>
         <i className="icon">
         <IoSearch onClick={SearchFunc}/>
         </i>
