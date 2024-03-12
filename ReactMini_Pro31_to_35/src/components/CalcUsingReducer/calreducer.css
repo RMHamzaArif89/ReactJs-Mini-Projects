@@ -1,0 +1,185 @@
+
+.cal-con{
+    width: 100%;
+    background:linear-gradient(180deg,lightblue,white);
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+  .calculator {
+  
+    height: 450px;
+    width: 350px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .cal-screen {
+    height: 20%;
+    width: 100%;
+  
+  
+  }
+  
+  .cal-btn {
+  
+    background:lightcyan;
+    height: 70%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .btn-cal {
+    width: 20%;
+    height: 15%;
+    margin: 2%;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 4px 6px;
+    cursor: pointer;
+    border: 1px solid gray;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  
+  }
+  .btn-cal:hover{
+    background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #bbb;
+  }
+  
+  .btn-first{
+    background: rgb(206, 136, 8);
+  }
+  .btn-second{
+    background: rgb(52, 5, 128);
+  }
+  .btn-third{
+    background: rgb(150, 6, 6);
+  }
+  .btn-log{
+    background: blueviolet;
+  }
+  
+  .cal-screen input{
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 1px solid gray;
+    color: rgba(95, 94, 94, 0.938);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 3px;
+  
+  }
+  
+  .btn-equal{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background: rgba(28, 28, 228, 0.938);
+    cursor: pointer;
+  }
+  .btn-equal:hover{
+    background: greenyellow;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .dis{
+   
+    background: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+    padding:14px;
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* small mobile and divices */
+  
+  @media (min-width:220px) and (max-width: 600px) {
+  html{
+  font-size:10px;
+  
+  }
+  
+  
+  
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (max-width:768px) and (min-width:600px) {
+  html{
+  font-size: 12px;
+  }
+  
+  
+  
+  
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media(max-width:992px) and (min-width:768px){
+  html{
+  font-size: 14px;
+  }
+  
+  
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width:1200px){
+  html{
+  font-size: 16px;
+  
+  
+  }
+  
+  
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+  }
