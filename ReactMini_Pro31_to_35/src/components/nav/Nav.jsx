@@ -8,7 +8,7 @@ function Nav() {
         <ul>
             <li><Link to='autoSearch'>AutoSearch</Link></li>
             <li><Link to='Cal'>Cal</Link></li>
-            {/* <li><Link to='load'>LoadMore</Link></li> */}
+            <li><Link to='currency'>Currency</Link></li>
             {/* <li><Link to='pagination'>Pagination</Link></li> */}
            
           
